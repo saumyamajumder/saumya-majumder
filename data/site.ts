@@ -11,7 +11,6 @@ import {
   Frame,
   Gauge,
   Globe,
-  Heart,
   Layers,
   LayoutTemplate,
   MonitorSmartphone,
@@ -21,7 +20,6 @@ import {
   Rocket,
   TestTube2,
   Wrench,
-  Zap,
 } from "lucide-react";
 import { FaLinkedinIn, FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa6";
 import {
@@ -51,7 +49,6 @@ import {
   SiTailwindcss,
   SiV0,
   SiVite,
-  SiWindsurf,
   SiWordpress,
 } from "react-icons/si";
 import { TbBrandAdobePhotoshop, TbBrandAdobeXd, TbBrandOpenai } from "react-icons/tb";
@@ -120,7 +117,7 @@ export const whatsappHref = `https://wa.me/${contactInfo.whatsapp}?text=${encode
 )}`;
 
 export const hero = {
-  badge: "Available for freelance projects",
+  badge: "Available for projects",
   titleLead: "Building Modern Websites & Digital Experiences That",
   titleAccent: "Make an Impact.",
   intro:
@@ -384,10 +381,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Google Gemini", icon: SiGooglegemini },
       { name: "GitHub Copilot", icon: SiGithubcopilot },
       { name: "Cursor AI", icon: SiCursor },
-      { name: "Windsurf AI", icon: SiWindsurf },
       { name: "Vercel v0", icon: SiV0 },
-      { name: "Bolt.new", icon: Zap },
-      { name: "Lovable AI", icon: Heart },
       { name: "Figma AI", icon: SiFigma },
     ],
   },

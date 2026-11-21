@@ -247,7 +247,7 @@ export function ContactSection() {
             <SubmitErrorMessage error={submitError} />
 
             <div className="flex flex-col gap-4 sm:col-span-2 sm:flex-row sm:items-center sm:justify-between">
-              <p className="text-sm text-muted-foreground">I&apos;ll reply as soon as possible, usually within 1–2 business days.</p>
+              <p className="text-sm text-muted-foreground">Thanks for reaching out! I’ll get back to you as soon as possible.</p>
               <AnimatedButton
                 type="submit"
                 size="lg"

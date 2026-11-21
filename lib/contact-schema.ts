@@ -26,7 +26,7 @@ export const contactSchema = z.object({
     .string()
     .check(
       z.trim(),
-      z.minLength(20, "Please share a few more details (at least 20 characters)."),
+      z.minLength(10, "Please share a few more details (at least 10 characters)."),
       z.maxLength(5000, "Please keep the details under 5000 characters."),
     ),
   /** Honeypot — real visitors never see or fill this field. */
